@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<title>Jeopardy!</title>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <button class = "homebutton button1" onclick="window.location.href='index.html'">Home</button>
+    <button class = "homebutton button1" onclick="window.location.href='start.html'">Start Page</button>
+</head>
+
+<body id="myBody">
+    <div align="center">
+        <h1 class="h" align = "center">Jeopardy!</h1>
+    </div>
+    
+    <div align="center" class="description">
+        <p align="center" class="p">Search for a set of
+            Jeopardy questions based on their clue values and air dates. If a starting
+            date is specified, then an ending date must be specified. (NOTE: The earliest
+            air date is 1984-09-21 and the latest air date is 2015-03-31)</p>
+    </div>
+
+    <div align = "center" id="clueSearch"> 
+        <div class="div select">
+            <label align="center">Clue Value</label>
+            <select class="font" id="clueVal">
+                <option selected ="none" value="none">Select Value</option>
+                <option value="200">200</option>
+                <option value="400">400</option>
+                <option value="600">600</option>
+                <option value="800">800</option>
+                <option value="1000">1000</option>
+            </select>
+        </div>
+            
+        <br>
+
+        <div class="div select">
+            <label>Start Date</label>
+            <input class="font"type="date" id="startDate" value="none" min="1984-09-21" max="2015-03-31">
+        </div>
+
+        <br>
+
+        <div class="div select">
+            <label>End Date</label>
+            <input class="font" type="date" id="endDate" value="none" min="1984-12-01" max="2015-03-31">
+        </div>
+
+        <br>
+                
+        <button class="searchbutton startbutton button1" type="button" id = "search" onClick="search()">Search</button>
+        
+        <br>
+                    
+    </div>
+
+
+    <div align="center" class="description">
+        <p align="center" class="p">Search through the first 100 trivia categories and view their questions,
+            answers, values, and airdates.
+        </p>
+    </div>
+
+    <input class="font" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Category..." title="Type in a name">
+    
+    <table class="font" id="myTable">
+      <tr class="header">
+        <th align="center" style="width:40%;">Category</th>
+        <th align="center" style="width:40%;">Clue Count</th>
+        <th align="center" style="width:20%;">Select</th>
+      </tr>
+
+      <!-- <tr>
+        <td>Category</td>
+        <td>Clue Count</td>
+        <td>Select</td>
+      </tr> -->
+
+    </table>
+    
+    <script type="text/javascript" src="javascript/index.js"></script>
+    
+    </body>
+    
+
+</html>

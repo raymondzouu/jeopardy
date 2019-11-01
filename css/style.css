@@ -1,0 +1,184 @@
+/* .button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    background-color: #8013ec;
+    border-color: #fff;
+    color: #fff;
+    text-align:center;
+    
+  } */
+
+  .startbutton {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: rgb(86, 76, 175);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+
+  .startpage 
+  .searchbutton {
+    padding: 1px 32px;
+    margin-bottom: 30px;
+  }
+
+  .homebutton {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: rgb(86, 76, 175);
+    border: none;
+    color: white;
+    padding: 1px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    /* position:absolute; 
+    top:20;
+    left:20;  */
+  }
+
+  .viewbutton {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: white;
+    border: 2px solid rgb(86, 76, 175);
+    border-radius: 12px;
+    color: rgb(86, 76, 175);
+    padding: 1px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+
+  .viewbutton:hover {
+    border: 2px solid white;
+    background-color: rgb(86, 76, 175);
+    color: white;
+  }
+
+  a {
+    color: rgb(86, 76, 175);
+  }
+  
+  .label {
+    display: block;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-bottom: 50px;
+  }
+
+  .button1 {
+    background-color: rgb(86, 76, 175); 
+    color: white; 
+    border: 2px solid rgb(86, 76, 175);
+    border-radius: 12px;
+    
+  }
+  
+  .button1:hover {
+    border: 2px solid white;
+    background-color: rgb(86, 76, 175);
+    color: white;
+  }
+
+  div.select {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-bottom: 20px;
+    display: inline-block;
+  }
+
+  div.padding {
+    padding-top: 25px; 
+    padding-bottom: 30px;
+  }
+
+  div.contact {
+      padding-top:25px;
+      font-size: 13px;
+  }
+
+  .button.is-primary {
+    background-color: #8013ec;
+    border-color: #fff;
+    color: #fff;
+    }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .description {
+    
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .font {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  }
+
+  .p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+  .h {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: rgb(86, 76, 175); 
+    display: inline-block;
+  }
+
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+  }
