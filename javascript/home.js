@@ -31,7 +31,7 @@ var clues = new Array();
         table = '';
         
 
-        fetch('http://jservice.io/api/categories?count=100&offset=' + 1)
+        fetch('https://cors-anywhere.herokuapp.com/http://jservice.io/api/categories?count=100&offset=' + 1)
             .then(function(response) {
                 if (response.status !== 200) {
                     console.log('There was a problem. Status code: ' + response.status);

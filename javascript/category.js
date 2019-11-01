@@ -1,7 +1,7 @@
 var clicked_id = window.location.hash.substring(1);
             //document.getElementById("myHeader").innerHTML = clicked_id;
         
-            fetch('http://jservice.io/api/clues?category=' + clicked_id)
+            fetch('https://cors-anywhere.herokuapp.com/http://jservice.io/api/clues?category=' + clicked_id)
                 .then(function(response) {
                     if (response.status !== 200) {
                         console.log('There was a problem. Status code: ' + response.status);

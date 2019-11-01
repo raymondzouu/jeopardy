@@ -8,11 +8,11 @@ console.log(startDate);
 console.log(endDate);
 
 if (clueVal == "none" && startDate != "none" && endDate != "none") {
-    url = 'http://jservice.io/api/clues?min_date=' + startDate + '&max_date=' + endDate;
+    url = 'https://cors-anywhere.herokuapp.com/http://jservice.io/api/clues?min_date=' + startDate + '&max_date=' + endDate;
 } else if (clueVal != "none" && startDate == "none" && endDate == "none") {
-    url = 'http://jservice.io/api/clues?value=' + clueVal;
+    url = 'https://cors-anywhere.herokuapp.com/http://jservice.io/api/clues?value=' + clueVal;
 } else {
-    url = 'http://jservice.io/api/clues?value=' + clueVal + '&min_date=' + startDate + '&max_date=' + endDate;
+    url = 'https://cors-anywhere.herokuapp.com/http://jservice.io/api/clues?value=' + clueVal + '&min_date=' + startDate + '&max_date=' + endDate;
 }
 //document.getElementById("myHeader").innerHTML = clicked_id;
 
