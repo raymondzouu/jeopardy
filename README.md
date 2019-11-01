@@ -1,4 +1,1 @@
 # jeopardy
----
-permalink: /index.html
----
