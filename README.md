@@ -2,7 +2,7 @@
 Search for Jeopardy questions based on clue values, air dates, and trivia categories!
 Submission for **2020 Capital One Software Engineering Summit**.
 
-[Demo!](https://raymondzouu.github.io/jeopardy/)
+[Demo!](https://raymondzouu.github.io/jeopardy-question-search/)
 
 ## Contents
 - [Stack Outline](#stack-outline)
