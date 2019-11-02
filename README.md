@@ -21,8 +21,12 @@ Submission for **2020 Capital One Software Engineering Summit**.
 ## Strategy
 
 ## Question Search
+Search for a set of Jeopardy questions based on: 
+* clue value (e.g. 200, 400, 600, etc.)
+* the date the question was aired on tv by specifying a starting date and ending date
 
 ## Category Search
-
+* search through the first 100 categories by name
+* view information and questions of specified category
 
 
