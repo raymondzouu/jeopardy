@@ -1,4 +1,4 @@
-# jeopardy
+# jeopardy-question-search
 Search for Jeopardy questions based on clue values, air dates, and trivia categories!
 Submission for **2020 Capital One Software Engineering Summit**.
 
