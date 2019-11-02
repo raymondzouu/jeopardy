@@ -20,6 +20,7 @@ Submission for **2020 Capital One Software Engineering Summit**.
 
 ## Strategy
 
+
 ## Question Search
 Search for a set of Jeopardy questions based on: 
 * clue value (e.g. 200, 400, 600, etc.)
