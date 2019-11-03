@@ -4,7 +4,8 @@ console.log("test");
 function getCategories() {
     //fetch('http://jservice.io/api/categories?count=100&offset=3')
     //fetch('http://jservice.io/api/clues?category=' + '11571')
-    fetch('http://jservice.io/api/clues?min_date=2012-04-02&max_date=2019-03-20')
+    //fetch('http://jservice.io/api/clues?min_date=2012-04-02&max_date=2019-03-20')
+    fetch('http://jservice.io/api/clues=144419')
     .then(function(response) {
         if (response.status !== 200) {
             console.log('There was a problem. Status code: ' + response.status);
