@@ -19,15 +19,17 @@ Submission for **2020 Capital One Software Engineering Summit**.
 * jService API
 
 ## Strategy
-
+* Use the Fetch API to retrieve question data from the jService API
+* Allow users to search through the questions based on specified criteria
+* Visualize the data through the web application
 
 ## Question Search
 Search for a set of Jeopardy questions based on: 
-* clue value (e.g. 200, 400, 600, etc.)
-* the date the question was aired on tv by specifying a starting date and ending date
+* Clue value (e.g. 200, 400, 600, etc.)
+* The date the question was aired on tv by specifying a starting date and ending date
 
 ## Category Search
-* search through the first 100 categories by name
-* view information and questions of specified category
+* Search through the first 100 categories by name
+* View information and questions of specified category
 
 
