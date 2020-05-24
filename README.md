@@ -4,6 +4,7 @@ Submission for **2020 Capital One Software Engineering Summit**.
 
 [Demo!](https://raymondzouu.github.io/jeopardy-question-search/)
 
+
 ## Contents
 - [Stack Outline](#stack-outline)
 - [Strategy](#strategy)
